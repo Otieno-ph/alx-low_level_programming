@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*print_times_table - entry point
-*@j: input
-*Return: Number matrix
-*/
+  *print_times_table - entry point
+  *@j: input
+  *Return: Number matrix
+  */
 
 void print_times_table(int j)
 {
@@ -17,7 +17,7 @@ void print_times_table(int j)
 			for (y = 1; y <= j; y++)
 			{
 				op = x * y;
-				_putchar(44);
+                                _putchar(44);
 				_putchar(32);
 				if (op <= 9)
 				{
